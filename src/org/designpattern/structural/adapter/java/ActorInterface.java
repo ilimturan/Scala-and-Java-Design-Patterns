@@ -3,12 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package org.designpattern.structural.adepter.java;
+package org.designpattern.structural.adapter.java;
 
 /**
  *
  * @author ilimturan
  */
-public class Test {
-    
+interface ActorInterface {
+    public void move(int speed);
+    public String getPosition();
 }
