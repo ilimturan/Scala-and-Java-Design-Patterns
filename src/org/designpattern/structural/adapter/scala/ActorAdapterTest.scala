@@ -98,11 +98,11 @@ object ActorAdapterTest extends App {
   bird.move(11);
   println(bird.getPosition())
 
-  var car = new BirdAdapter()
+  var car = new CarAdapter()
   car.move(6);
   println(car.getPosition())
 
-  var gear = new BirdAdapter()
+  var gear = new GearAdapter()
   gear.move(23);
   println(gear.getPosition())
 }
